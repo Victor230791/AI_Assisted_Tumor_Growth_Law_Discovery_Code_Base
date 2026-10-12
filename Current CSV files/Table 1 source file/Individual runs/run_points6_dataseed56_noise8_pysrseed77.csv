@@ -1,0 +1,19 @@
+Candidate ID,Complexity,Expression,Status,Phase-space RMSE,Trajectory RMSE
+1,1,1.37661120000000,Not Gompertz,2.3155365119371436,5.15434021927972
+2,5,1.37664430000000,Not Gompertz,2.315536511978315,5.154195243273797
+3,6,6.470158 - 0.30574808*x0,Not Gompertz,1.5499817440829402,3.259634156337143
+4,8,6.46985681702149 - 0.30573145*x0,Not Gompertz,1.5499817410889645,3.2595239253544377
+5,9,x0*(2.9834719 - log(x0)),Gompertz,1.2580188444015505,4.190790415678754
+6,11,-x0 + 6.580808*log(x0 + 0.77392155),Not Gompertz,1.1086085601994746,inf
+7,13,-x0 + 7.263872*log(x0 + 1.2648529) - 2.1830187,Not Gompertz,1.1001583925049225,inf
+8,14,(2.5877726 - 0.18674058*x0)*log(x0) + 3.5014195,Gompertz-reducible,1.0328992819038194,inf
+9,16,(1.5559531 - 0.15835704*x0)*log(x0 - 0.10416335) + 4.9208384,Gompertz-reducible,0.9518791145627191,inf
+10,18,x0 + 0.43082902*(2.2178833 - x0)*log(x0 - 0.10475835) + 2.948816,Gompertz-reducible,0.9241295001346214,inf
+11,20,x0 + (0.926850854658729 - 0.43082902*x0)*log(x0 - 0.10475835) + 3.0385256,Gompertz-reducible,0.9239792566327647,inf
+
+True Gompertz expression,0.5*x0*log(20.0/x0)
+True Gompertz phase-space RMSE,1.4430216079618783
+True Gompertz trajectory RMSE,1.2729012987907358
+Best candidate ID (PySR default),6
+Best candidate ID (lowest phase-space RMSE),11
+Best candidate ID (lowest trajectory RMSE),4

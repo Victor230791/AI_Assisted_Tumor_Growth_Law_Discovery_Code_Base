@@ -1,0 +1,5 @@
+Gaussian noise level: 15.0%
+Training time interval: [0.0, 15.0]
+Forecast-time interval: [15.5, 25.5]
+Training volume array: [ 0.10973366  6.76303592 15.16134847 15.29113992 25.17641697 18.54875965]
+Training time array: [ 0.  3.  6.  9. 12. 15.]
